@@ -1,4 +1,4 @@
-# EX-05 Creating Cursors using PL/SQL
+# EX-06 Creating Cursors using PL/SQL
 
 ### AIM:
 To create a cursor using PL/SQL.
