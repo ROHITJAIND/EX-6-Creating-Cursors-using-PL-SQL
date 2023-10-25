@@ -4,11 +4,10 @@
 To create a cursor using PL/SQL.
 
 ### Steps:
-1. Create employee table with following attributes (empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salary NUMBER);
+1. Create employee table with following attributes (empid,empname,dept,salary);
 2. Create a cursor named as employee_cursor
 3. Using cursor read each record and display the result
 4. Close the cursor
-
 ### Program:
 #### Create employee table
 ```sql
@@ -18,6 +17,10 @@ insert into employeee values(1,'John','HR',50000);
 insert into employeee values(2,'joe','IT',65000);
 insert into employeee values(3,'Bob','Finance',55000);
 ```
+<table>
+  <tr>
+    <td>
+
 #### PLSQL Cursor code
 ```sql
 set serveroutput on 
@@ -44,7 +47,15 @@ close employee_cursor;
 end;
 /
 ```
-### Output:
-![image](https://github.com/ROHITJAIND/EX-6-Creating-Cursors-using-PL-SQL/assets/118707073/d128b2d0-f16f-4c4e-92d0-1630d0e2f0b8)
+
+  </td>
+  <td>
+    
+  ### Output:
+  ![image](https://github.com/ROHITJAIND/EX-6-Creating-Cursors-using-PL-SQL/assets/118707073/d128b2d0-f16f-4c4e-92d0-1630d0e2f0b8)
+  </td>
+  </tr>
+</table>
+
 ### Result:
 Thus a cursor using PL/SQL is created successfully.
