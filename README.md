@@ -1,18 +1,21 @@
 # EX-06 Creating Cursors using PL/SQL
 
 ### AIM:
-To create a cursor using PL/SQL.
+To create a cursor using PL/SQL. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  **DATE:** 26.09.2023
 
 ### Steps:
 1. Create employee table with following attributes (empid,empname,dept,salary);
 2. Create a cursor named as employee_cursor
 3. Using cursor read each record and display the result
-4. Close the cursor
+4. Close the cursor.<br>
+
+Developed By: ROHIT JAIN D<br>
+Register No: 212222230120
 ### Program:
 #### Create employee table
 ```sql
-Create employee table
-create table employeee((empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salary NUMBER);
+Create employee table                                                                           
+create table employeee((empid NUMBER, empname VARCHAR(10), dept VARCHAR(10),salary NUMBER);      
 insert into employeee values(1,'John','HR',50000);
 insert into employeee values(2,'joe','IT',65000);
 insert into employeee values(3,'Bob','Finance',55000);
